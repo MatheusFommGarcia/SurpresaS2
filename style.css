@@ -3,7 +3,7 @@
     --bg-night: #0d0d2b;
     --box-day: #ffe0d6;
     --box-night: #2c2c54;
-    --text: #a34d6d;
+    --text: #ff0095;
   }
   
   body {
@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.616);
+    box-shadow: 0 4px 10px rgba(102, 95, 95, 0.616);
     transform-style: preserve-3d;
     transition: transform 0.6s;
   }
@@ -59,7 +59,7 @@
   
   .box.aberta {
     transform: rotateY(180deg);
-    background-color: #fff;
+    background-color: #f7016886;
     font-size: 1rem;
     padding: 20px;
     cursor: default;
@@ -339,3 +339,9 @@
   border-radius: 50%;
   box-shadow: 0 0 20px #f0f0f0;
 }
+
+html, body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
